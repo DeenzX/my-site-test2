@@ -1,0 +1,455 @@
+/* ideas:
+text sus background image poneje ima bug kato hvanesh image i go pluznesh na nqkude
+active cveta ostava. */
+
+*{
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.main-logo {
+    color: white;
+    margin-bottom: -80px;
+    margin-top: -30px;
+    text-decoration: none;
+}
+
+.first-row {
+    margin-top: -10px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+    max-width: 59%;
+    max-height: 100%;
+    background-image: url(../img/pancakes.jpg);
+    padding: 60px;
+    margin-bottom: -20px;
+}
+
+.first-row:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+.first-row:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.second-row {
+    color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+    max-width: 59%;
+    max-height: 100%;
+    background-image: url(../img/sushi.jpeg);
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    margin-bottom: -20px;
+}
+
+.second-row:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+.second-row:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.third-row {
+    color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+    max-width: 59%;
+    max-height: 100%;
+    background-image: url(../img/lunch.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    margin-bottom: -20px;
+}
+
+.third-row:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+.third-row:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.fourth-row {
+    color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+    max-width: 59%;
+    max-height: 100%;
+    background-image: url(../img/KidsMenu.png);
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    margin-bottom: -20px;
+}
+
+.fourth-row:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+.fourth-row:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.fifth-row {
+    color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+    max-width: 59%;
+    max-height: 100%;
+    background-image: url(../img/strawberries.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    margin-bottom: -20px;
+}
+
+.fifth-row:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+.fifth-row:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.margin {
+    margin-left: 450px;
+    user-select: none;
+}
+
+.powered {
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 17px;
+    color: orange;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+/* --------------------------------------testing---------------------------------------- */
+
+#first-row1 {
+    background-image: url(../img/pancakes.jpg);
+    margin: 50px;
+    border-radius: 100px;
+    color: white;
+}
+
+#first-row1:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+#first-row1:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.first-row-paragraph1 {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 100px;
+    margin-right: 1500px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    user-select:none;
+}
+
+#second-row1 {
+    background-image: url(../img/sushi.jpeg);
+    margin: 50px;
+    border-radius: 100px;
+    color: white;
+}
+
+#second-row1:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+#second-row1:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.second-row-paragraph1 {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 100px;
+    margin-right: 1500px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    user-select:none;
+}
+
+#third-row1 {
+    background-image: url(../img/lunch.jpg);
+    margin: 50px;
+    border-radius: 100px;
+    color: white;
+}
+
+#third-row1:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+#third-row1:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.third-row-paragraph1 {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 100px;
+    margin-right: 1500px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    user-select:none;
+}
+
+#fourth-row1 {
+    background-image: url(../img/KidsMenu.png);
+    margin: 50px;
+    border-radius: 100px;
+    color: white;
+    background-repeat: no-repeat;
+    
+}
+
+#fourth-row1:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+#fourth-row1:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.fourth-row-paragraph1 {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 100px;
+    margin-right: 1500px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    user-select:none;
+}
+
+#fifth-row1 {
+    background-image: url(../img/strawberries.jpg);
+    margin: 50px;
+    border-radius: 100px;
+    color: white;
+}
+
+#fifth-row1:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+#fifth-row1:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.fifth-row-paragraph1 {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 100px;
+    margin-right: 1500px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    user-select:none;
+}
+
+/* --------------------------------------testing---------------------------------------- */
+
+/* --------------------------------------testing(better menu than all other?)---------------------------------------- */
+#first-row {
+    background-image: url(../img/summermenu.jpg);
+    margin: 50px;
+    border-radius: 100px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+#first-row, #second-row, #third-row, #fourth-row, #fifth-row {
+    font-family: 'Pacifico', cursive;
+    background-repeat: no-repeat;
+}
+
+#first-row:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+#first-row:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.first-row-paragraph {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 100px;
+    margin-right: 1500px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    user-select:none;
+}
+
+#second-row {
+    background-image: url(../img/sushi.jpeg);
+    margin: 50px;
+    border-radius: 100px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+#second-row:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+#second-row:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.second-row-paragraph {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 100px;
+    margin-right: 1500px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    user-select:none;
+}
+
+#third-row {
+    background-image: url(../img/lunch.jpg);
+    margin: 50px;
+    border-radius: 100px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+#third-row:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+#third-row:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.third-row-paragraph {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 100px;
+    margin-right: 1500px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    user-select:none;
+}
+
+#fourth-row {
+    background-image: url(../img/yea.jpg);
+    margin: 50px;
+    border-radius: 100px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+#fourth-row:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+#fourth-row:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.fourth-row-paragraph {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 100px;
+    margin-right: 1500px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    user-select:none;
+}
+
+#fifth-row {
+    background-image: url(../img/straw.png);
+    margin: 50px;
+    border-radius: 100px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+#fifth-row:hover {
+    box-shadow: 5px 5px 16px #A09797;
+    transform: scale(0.9);
+    transition: transform 1s;
+}
+
+#fifth-row:active {
+    box-shadow: 5px 5px 16px green;
+}
+
+.fifth-row-paragraph {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 100px;
+    margin-right: 1500px;
+    margin-right: 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    user-select:none;
+}
+
+/* --------------------------------------testing(better menu than all other?)---------------------------------------- */
